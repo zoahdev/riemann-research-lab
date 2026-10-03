@@ -1,0 +1,37 @@
+# Riemann research lab / 黎曼猜想研究记录
+
+Public research notebook started on 2026-10-04 (Asia/Shanghai), with AI assistance from OpenAI Codex.
+
+**Status: RH is not proved here. No new global zero-proportion record is claimed.**
+
+首批结果是一个有完整初等证明的三点谱缺陷精确界，以及一个说明仅靠二阶矩无法统一改进计数不等式的等号构造。它们是可审查的局部数学结果；文献新颖性尚未确认，也没有完成到黎曼零点全局界限的转移。
+
+## Results
+
+1. [Sharp three-point spectral defect profile](notes/001-sharp-triple-profile.md): for a PSD Hermitian 3-by-3 matrix with unit diagonal and off-diagonal energy `e`, the minimum clipped spectral defect is exactly
+   - `2e`, for `0 <= e <= 3/4`;
+   - `2e - (sqrt(4e/3)-1)^2`, for `3/4 <= e <= 3`.
+   Equicorrelation matrices attain equality at every energy. The sharp uniform coefficient is `Delta >= (5/3)e`.
+2. [Second-moment saturation obstruction](notes/002-saturation.md): explicit sinc-kernel multisets saturate both finite-multiset counting inequalities. A universally positive correction needs additional kernel or configuration information.
+3. [Source ledger and verification boundaries](notes/000-sources.md): recent primary sources, with proof status and imported hypotheses kept separate.
+
+## Reproduce
+
+Python 3.10+:
+
+```sh
+python -m pip install -r requirements.txt
+python -m unittest discover -s tests -v
+python experiments/check_triple_profile.py --samples 10000 --output results/triple-profile.json
+```
+
+Exact rational tests cover the equality family and elementary proof identities. Seeded floating-point tests check complex Gram matrices and pinching; they are regression evidence, not a proof or an interval certificate. The proof is in the notes. No Lean verification is claimed.
+
+## Next research steps
+
+- Audit kernel-specific attainability of the extremal matrices; arbitrary correlation matrices need not come from distinct zeta-zero ordinates.
+- Seek a certified lower bound on three-point overlap energy that exceeds the low-energy regime, or use larger blocks and a different window.
+- Independently replay the local interval certificates behind recent global claims before importing their constants.
+- Derive and verify all smoothing, counting and asymptotic transfer steps before claiming an improvement in a zero proportion.
+
+Progress is published as reviewable commits. External results retain their original attribution; this repository does not certify the complete proofs of its cited preprints.
