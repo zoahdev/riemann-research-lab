@@ -19,6 +19,13 @@ The useful connection for a disproof search is the indefinite Weil form: a
 strictly negative, correctly computed witness would refute RH. An improved
 positive-index lower bound is not such a witness.
 
+There is also a separate earlier [Siman–Claude spectral project](https://github.com/monksealseal/rh-spectral),
+dated February–March 2026. Its own README retracts its proposed proof chain
+and distinguishes numerical experiments from the missing simplicity and
+convergence arguments. It should not be confused with the later unconditional
+zero-proportion theorem. Its numerical results have not been independently
+replayed here.
+
 ## Major constraints and potential disproof certificates
 
 | Route and primary source | What is established | What would refute RH |
@@ -79,5 +86,8 @@ or a certified direct contour search beyond the verified height.
 - Do not transfer a counterexample for a different zeta-like function to zeta.
 - Do not assume all-scale positivity to construct a supposedly unconditional
   positive Hilbert-space metric.
+- Do not assume the full localized Weil semigroup preserves the pointwise
+  nonnegative cone: [note 004](004-semigroup-obstruction.md) gives explicit
+  disjoint-support witnesses against this shortcut.
 
 Novelty is not claimed for this implementation or these finite checks.

@@ -17,6 +17,7 @@ Public research notebook started on 2026-10-04 (Asia/Shanghai), with AI assistan
 2. [Second-moment saturation obstruction](notes/002-saturation.md): explicit sinc-kernel multisets saturate both finite-multiset counting inequalities. A universally positive correction needs additional kernel or configuration information.
 3. [Source ledger and verification boundaries](notes/000-sources.md): recent primary sources, with proof status and imported hypotheses kept separate.
 4. [Disproof audit and arithmetic search](notes/003-disproof-audit.md): Claude's result, selected equivalent criteria, rigorous finite positivity checks and explicit search limitations.
+5. [Pointwise-positive semigroup obstruction](notes/004-semigroup-obstruction.md): an explicit positive cross term rules out a direct positivity-preserving semigroup argument for the localized Weil operator at all scales; this is compatible with RH.
 
 ## Reproduce
 

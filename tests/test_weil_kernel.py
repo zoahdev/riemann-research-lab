@@ -5,6 +5,7 @@ from flint import arb, ctx
 from experiments.weil_kernel import (
     ArithmeticScrew, certify_ldl, prime_powers, rayleigh, toy_offline_g,
 )
+from experiments.check_semigroup_obstruction import run as obstruction
 
 
 class KernelCertificates(unittest.TestCase):
@@ -47,6 +48,11 @@ class KernelCertificates(unittest.TestCase):
     def test_synthetic_offline_pair_is_detected(self):
         ctx.dps = 80
         self.assertTrue(-2*toy_offline_g(2*arb.pi()) < 0)
+
+    def test_obstruction_supports_and_signs(self):
+        result = obstruction(80)
+        self.assertEqual(result['status'], 'constant_enclosures_verified')
+        self.assertFalse(result['rh_counterexample'])
 
 
 if __name__ == '__main__':
