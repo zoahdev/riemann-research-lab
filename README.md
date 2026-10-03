@@ -18,6 +18,7 @@ Public research notebook started on 2026-10-04 (Asia/Shanghai), with AI assistan
 3. [Source ledger and verification boundaries](notes/000-sources.md): recent primary sources, with proof status and imported hypotheses kept separate.
 4. [Disproof audit and arithmetic search](notes/003-disproof-audit.md): Claude's result, selected equivalent criteria, rigorous finite positivity checks and explicit search limitations.
 5. [Pointwise-positive semigroup obstruction](notes/004-semigroup-obstruction.md): an explicit positive cross term rules out a direct positivity-preserving semigroup argument for the localized Weil operator at all scales; this is compatible with RH.
+6. [High-frequency modulated Weil probe](notes/005-modulated-weil.md): exact prime-side formula, geometric remainder enclosure, and 32 positive test values above height 3 trillion. These values are not a zero-free-region certificate.
 
 ## Reproduce
 

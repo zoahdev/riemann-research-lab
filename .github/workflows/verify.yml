@@ -13,3 +13,4 @@ jobs:
       - run: python experiments/check_triple_profile.py --samples 10000
       - run: python experiments/weil_kernel.py --max-node 6 --intervals 64 --dps 100
       - run: python experiments/check_semigroup_obstruction.py
+      - run: python experiments/modulated_weil.py --length 12 --samples 32
