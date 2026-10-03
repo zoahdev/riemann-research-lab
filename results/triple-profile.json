@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "evidence": "floating-point regression, not proof",
+  "seed": 20261004,
+  "complex_gram_samples": 10000,
+  "block_samples": 1000,
+  "equality_samples": 1001,
+  "minimum_profile_margin": -2.6645352591003757e-15,
+  "minimum_block_margin": 3.188027743164711,
+  "maximum_equality_error": 1.9984014443252818e-15,
+  "python": "3.8.6",
+  "numpy": "1.24.4"
+}
