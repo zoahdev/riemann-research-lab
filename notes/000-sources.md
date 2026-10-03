@@ -10,12 +10,19 @@ Checked 2026-10-04. This is a focused survey of the pair-correlation / spectral-
 | [Wang, arXiv:2609.24167v1](https://arxiv.org/html/2609.24167v1) | Spectral defect in Proposition 2.1 and triple pinching in Lemma 3.1; small claimed global gain | Relevant matrix lemmas read; global transfer not independently certified |
 | [Santibañez-Leal, Zenodo version 0.01](https://zenodo.org/records/22940291) | September 24 sharp auxiliary three-point ratio claim | Landing-page claim only; proof/certificates not audited |
 | [Knausgård, arXiv:2609.33043v1](https://arxiv.org/html/2609.33043v1) | September 27 distinct-zero proportion claim about 0.836993; variable clipping and mixed multiplicities | Relevant statement and verification section read; imported interval certificate not replayed |
+| [Zhu, arXiv:2608.24827v2](https://arxiv.org/html/2608.24827v2) | Claimed all-function positivity on [-0.8,0.8], very small variational upper bounds, and a barrier for its particular finite-reduction method | Abstract and introductory statements consulted; complete reduction and certificates not independently audited |
 
 The last paper explicitly lists analytic and computational inputs that are hypotheses in its formal statements. Its stated formal checks should not be read as a complete formal proof of all analytic inputs.
 
 That paper's references also point to [ainta/zeta-simple-zeros](https://github.com/ainta/zeta-simple-zeros), [yuhangshi888/zeta-simple-zeros-673316977](https://github.com/yuhangshi888/zeta-simple-zeros-673316977), [tawanerguo-cn/zeta-simple-zeros](https://github.com/tawanerguo-cn/zeta-simple-zeros), and [trmdy/zeta-simple-zeros-673137](https://github.com/trmdy/zeta-simple-zeros-673137). These are discovery leads, not independently verified baselines here. Therefore 0.6725 is not described as the latest record.
 
 ## Attribution and novelty
+
+Zhu's claimed full-window certificate is different in scope from this
+repository's finite-cell certificates. The latter do not bound the infinite
+complement. Extremely small or floating-point negative values are particularly
+unsafe here. The preprint's method-specific complexity barrier should not be
+interpreted as a theorem excluding every possible RH proof or disproof route.
 
 The clipped defect and pinching framework come from the cited work. Note 001 gives an independent elementary optimization of a local 3-by-3 problem. No priority claim is made; a broader literature and repository check is still needed. Note 002 is an elementary diagnostic construction, not a new zeta-zero theorem.
 

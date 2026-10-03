@@ -1,0 +1,82 @@
+{
+  "length": "12",
+  "cells": 48,
+  "precision_digits": 80,
+  "runs": [
+    {
+      "status": "specified_subspace_positive_definite",
+      "size": 48,
+      "minimum_pivot_enclosure": "[6.26311341965807784165625985879924111252126991922799901837231293010 +/- 4.84e-66]",
+      "frequency": "3000000000001",
+      "normalized_dyadic_rayleigh_enclosure": "[11.6522341907438168533052041009052676370940347317724985861237651665 +/- 2.46e-65]",
+      "approximate_minimum_eigenvalue_over_width": 11.652234190743336,
+      "negative_candidate": false
+    },
+    {
+      "status": "specified_subspace_positive_definite",
+      "size": 48,
+      "minimum_pivot_enclosure": "[6.26280778321562240772388808253511940928374251550106306131956102532 +/- 5.75e-66]",
+      "frequency": "12000000000005/4",
+      "normalized_dyadic_rayleigh_enclosure": "[11.7335704312256760696628425086923159383492312988832797197254996602 +/- 6.72e-65]",
+      "approximate_minimum_eigenvalue_over_width": 11.733570431225166,
+      "negative_candidate": false
+    },
+    {
+      "status": "specified_subspace_positive_definite",
+      "size": 48,
+      "minimum_pivot_enclosure": "[6.26251157259266828643415119933523557376054744047131713173297854619 +/- 8.22e-66]",
+      "frequency": "6000000000003/2",
+      "normalized_dyadic_rayleigh_enclosure": "[11.8270844293899410900023580358252776274448300042926046762022366433 +/- 3.24e-65]",
+      "approximate_minimum_eigenvalue_over_width": 11.827084429389583,
+      "negative_candidate": false
+    },
+    {
+      "status": "specified_subspace_positive_definite",
+      "size": 48,
+      "minimum_pivot_enclosure": "[6.26221584778362491179265590451758800671363782394245924341723821412 +/- 7.98e-66]",
+      "frequency": "12000000000007/4",
+      "normalized_dyadic_rayleigh_enclosure": "[11.9325588491620305049968616361072675962650246896530015940541398044 +/- 4.14e-65]",
+      "approximate_minimum_eigenvalue_over_width": 11.932558849161614,
+      "negative_candidate": false
+    },
+    {
+      "status": "specified_subspace_positive_definite",
+      "size": 48,
+      "minimum_pivot_enclosure": "[6.26191137621873644160208067964418225602010771246111588624163908423 +/- 7.37e-66]",
+      "frequency": "3000000000002",
+      "normalized_dyadic_rayleigh_enclosure": "[12.0497415826423099543269279368484804543035433505441961692301040857 +/- 6.01e-65]",
+      "approximate_minimum_eigenvalue_over_width": 12.049741582641937,
+      "negative_candidate": false
+    },
+    {
+      "status": "specified_subspace_positive_definite",
+      "size": 48,
+      "minimum_pivot_enclosure": "[6.26158885740972217605510229081731368132479389208881350450852393128 +/- 8.05e-66]",
+      "frequency": "12000000000009/4",
+      "normalized_dyadic_rayleigh_enclosure": "[12.1783384322382872943547424012977102209010336394115704058146222056 +/- 5.81e-65]",
+      "approximate_minimum_eigenvalue_over_width": 12.178338432237863,
+      "negative_candidate": false
+    },
+    {
+      "status": "specified_subspace_positive_definite",
+      "size": 48,
+      "minimum_pivot_enclosure": "[6.26123914652841980548110521394785193260617499090583988030335870120 +/- 5.79e-66]",
+      "frequency": "6000000000005/2",
+      "normalized_dyadic_rayleigh_enclosure": "[12.3180014263851972587863221088902009996083398799723153585184929446 +/- 6.73e-65]",
+      "approximate_minimum_eigenvalue_over_width": 12.318001426384795,
+      "negative_candidate": false
+    },
+    {
+      "status": "specified_subspace_positive_definite",
+      "size": 48,
+      "minimum_pivot_enclosure": "[6.26085347018509451103436154762314192841567910123461380953041452400 +/- 8.11e-66]",
+      "frequency": "12000000000011/4",
+      "normalized_dyadic_rayleigh_enclosure": "[12.4683094617216819334980476558354242876971158460603378461754698994 +/- 4.31e-65]",
+      "approximate_minimum_eigenvalue_over_width": 12.468309461721272,
+      "negative_candidate": false
+    }
+  ],
+  "seconds": 0.759,
+  "scope": "specified finite subspaces; not all functions or a zero-free region",
+  "rh_status": "unresolved"
+}
