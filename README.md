@@ -20,6 +20,7 @@ Public research notebook started on 2026-10-04 (Asia/Shanghai), with AI assistan
 5. [Pointwise-positive semigroup obstruction](notes/004-semigroup-obstruction.md): an explicit positive cross term rules out a direct positivity-preserving semigroup argument for the localized Weil operator at all scales; this is compatible with RH.
 6. [High-frequency modulated Weil probe](notes/005-modulated-weil.md): exact prime-side formula, geometric remainder enclosure, and 32 positive test values above height 3 trillion. These values are not a zero-free-region certificate.
 7. [Hermitian forms on modulated cells](notes/006-weil-cell-forms.md): certified cross terms and full finite-subspace positivity at 48 and 96 dimensions, plus exact dyadic candidate replay for negative directions.
+8. [Stage evidence and remaining objective](notes/007-stage-audit.md): requirement-by-requirement evidence, current-status distinctions, and the unfulfilled larger disproof objective.
 
 ## Reproduce
 

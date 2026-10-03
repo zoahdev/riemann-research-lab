@@ -15,3 +15,4 @@ jobs:
       - run: python experiments/check_semigroup_obstruction.py
       - run: python experiments/modulated_weil.py --length 12 --samples 32
       - run: python experiments/weil_cells.py --samples 8
+      - run: python experiments/weil_cells.py --cells 96 --samples 8
