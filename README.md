@@ -2,7 +2,9 @@
 
 Public research notebook started on 2026-10-04 (Asia/Shanghai), with AI assistance from OpenAI Codex.
 
-**Status: RH is not proved here. No new global zero-proportion record is claimed.**
+**Status: RH is neither proved nor disproved here. No new global zero-proportion record is claimed.**
+
+当前方向：寻找严格的证伪证书。已核对 Claude 的约 67.25% 下界成果；它没有确定剩余零点在临界线外。新增基于素数端显式公式和 Arb 区间运算的有限核矩阵搜索，首轮没有找到反例。见 [证伪路线审计](notes/003-disproof-audit.md)。
 
 首批结果是一个有完整初等证明的三点谱缺陷精确界，以及一个说明仅靠二阶矩无法统一改进计数不等式的等号构造。它们是可审查的局部数学结果；文献新颖性尚未确认，也没有完成到黎曼零点全局界限的转移。
 
@@ -14,6 +16,7 @@ Public research notebook started on 2026-10-04 (Asia/Shanghai), with AI assistan
    Equicorrelation matrices attain equality at every energy. The sharp uniform coefficient is `Delta >= (5/3)e`.
 2. [Second-moment saturation obstruction](notes/002-saturation.md): explicit sinc-kernel multisets saturate both finite-multiset counting inequalities. A universally positive correction needs additional kernel or configuration information.
 3. [Source ledger and verification boundaries](notes/000-sources.md): recent primary sources, with proof status and imported hypotheses kept separate.
+4. [Disproof audit and arithmetic search](notes/003-disproof-audit.md): Claude's result, selected equivalent criteria, rigorous finite positivity checks and explicit search limitations.
 
 ## Reproduce
 
@@ -21,13 +24,19 @@ Python 3.10+:
 
 ```sh
 python -m pip install -r requirements.txt
+python -m pip install -r requirements-rh.txt
 python -m unittest discover -s tests -v
 python experiments/check_triple_profile.py --samples 10000 --output results/triple-profile.json
+python experiments/weil_kernel.py --max-node 6 --intervals 64 --dps 100
 ```
 
 Exact rational tests cover the equality family and elementary proof identities. Seeded floating-point tests check complex Gram matrices and pinching; they are regression evidence, not a proof or an interval certificate. The proof is in the notes. No Lean verification is claimed.
 
 ## Next research steps
+
+The current priority is a rigorous negative Weil/screw witness or a certified
+off-line zero beyond the verified height. No quick resolution is promised.
+The proportion-improvement directions below remain secondary background work.
 
 - Audit kernel-specific attainability of the extremal matrices; arbitrary correlation matrices need not come from distinct zeta-zero ordinates.
 - Seek a certified lower bound on three-point overlap energy that exceeds the low-energy regime, or use larger blocks and a different window.

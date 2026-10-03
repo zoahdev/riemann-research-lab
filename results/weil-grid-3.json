@@ -1,0 +1,20 @@
+{
+  "status": "finite_matrix_positive_definite",
+  "size": 48,
+  "minimum_pivot_enclosure": "[0.0245901347993238755096133368366074461968979211188491647787203215023196058 +/- 8.61e-74]",
+  "scope": "specified nodes only; no continuum or all-scale conclusion",
+  "max_node": "3",
+  "intervals_per_side": 24,
+  "precision_digits": 80,
+  "prime_power_count": 98,
+  "g_zero": "0 (exact)",
+  "rational_direction_enclosures": [
+    "[1.09328803925653326311711978663147355144716191356963039651490894921936954636 +/- 8.91e-75]",
+    "[107.52684522565138173303541495912115581019272929776140340036218941771635725533 +/- 6.86e-75]"
+  ],
+  "synthetic_offline_diagonal": "[-5.013188025992160936780608365185569931776966726028464301335836189283828565553602 +/- 5.46e-79]",
+  "synthetic_control_is_zeta_counterexample": false,
+  "off_diagonal_density_at_log_sqrt2": "[0.3483106997490065236863744943272610202529378301070329022057761387445419132730149 +/- 2.65e-80]",
+  "seconds": 0.026,
+  "rh_status": "unresolved"
+}
